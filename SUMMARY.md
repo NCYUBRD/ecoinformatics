@@ -1,4 +1,6 @@
 # Summary
 
-* [R 的介紹](chapter1.md)
-* [R 入門基礎](chapter2.md)
+* [R:介紹](ch1_intro.md)
+* [R:入門基礎](ch2_r_basic.md)
+* [R:繪圖](ch3_r_graphics.md)
+
