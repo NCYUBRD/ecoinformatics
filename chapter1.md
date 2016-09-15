@@ -1,3 +1,13 @@
-# First Chapter
+# R 的介紹
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+## 為什麼要使用 R?
+
+現在市面上有許多商業的專業統計軟體，例如 SAS、SPSS、Statistica 等,為什麼 我要介紹各位使用 R?你可能會問,我這些資料很簡單,用 Microsoft Excel 做統計分析或 SPSS 按一按就好了，報表也都能漂亮地印出來,為什麼還要再多花心思去學一 套新的軟體?因為 R 是:
+
+1. 百分之百自由軟體 (free software)，這意味著你可以自由取得、複製及散佈
+2. 開放原始碼，R 的原始碼是公開的，你可以閱讀甚至修改
+3. 龐大的使用者社群,因為自由軟體的特性,所以全世界有許多人貢獻他們的心力與 程式碼,所以許多新的統計方法可以很快就有 R 套件的支援
+4. 跨平台 (cross-platform),不管你是使用 Windows, GNU/Linux, Mac OS 甚至是 FreeBSD,都可以執行 R 程式
+5. 易於開發套件，你可以使用 C 或是 FORTRAN 語言開發延伸套件
+6. 整合性高，可使用諸如 bash, python (rpy2) 或是 perl (RSPerl) 等語言呼叫 R 物件寫作
+7. 高品質的圖形與表格排版輸出
