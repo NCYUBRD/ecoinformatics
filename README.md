@@ -1,3 +1,3 @@
-# My Awesome Book
+# 生態資訊學
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+生態資訊學為跨領域的學科，結合了生態學理論的基礎以及資訊工具的分析，培養學生能應用基礎課程的理論至實際的問題中，並以問題解決導向訓練學生熟悉常用的資訊分析工具，例如程式語言、資料庫以及相關的工具。課程的第一部分為介紹 R 語言，主要讓學生熟悉使用 R 分析生態資料；第二部分則是講授資料庫並實作查詢，最後則將資料庫與內容管理系統整合，訓練學生整合分析並呈現生態資料於網路平台上。
