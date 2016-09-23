@@ -1,0 +1,28 @@
+---
+title: "生態資訊學課程範例 R introduction (1)"
+author: "林政道"
+date: "September 23, 2016"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# this is comments
+# this is also a comment
+# test
+# test2
+
+設定工作目錄
+如果你使用 Mac 或 GNU/Linux作業系統
+```r
+setwd('/Users/psilotum/Documents/Dropbox/Courses/生態資訊學/demo')
+```
+假設你使用 windows 作業系統，路徑要改成 \\ (兩個反斜線)
+```r
+setwd('C:\\Users\\psilotum\\Documents\\Dropbox\\Courses\\生態資訊學\\demo')
+```
+或是使用 RStudio 中的 Session/Set Working Directory 來選擇設定你的工作目錄 
+
+
