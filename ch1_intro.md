@@ -53,7 +53,9 @@
 
     我們選 Empty Project ![專案類型](img/RS_empty_project.png)
 
-    選擇你想要放置這個 R 專案的目錄以及這個新專案的名稱，範例名稱為 ```ch1_r_project``` ![專案名稱及目錄](img/RS_project_name.png)
+    選擇你想要放置這個 R 專案的目錄以及這個新專案的名稱，範例名稱為 ```ch1_r_project``` 
+    
+    ![專案名稱及目錄](img/RS_project_name.png)
 
 
 * RStudio 介面介紹

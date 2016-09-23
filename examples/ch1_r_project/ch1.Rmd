@@ -9,10 +9,14 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# this is comments
-# this is also a comment
-# test
-# test2
+關於註解，只要是 # 之後的都是註解，會被 R 省略不執行其內容。
+
+```r
+# 「# 」之後的都是註解
+# 第二行註解
+# 第三行註解
+```
+
 
 設定工作目錄
 如果你使用 Mac 或 GNU/Linux作業系統
