@@ -1,1 +1,14 @@
-{}
+{
+    "plugins": [
+        "katex",
+        "image-captions"
+    ],
+
+    "pluginsConfig": {
+      "image-captions": {
+          "caption": "圖 _BOOK_IMAGE_NUMBER_ - _CAPTION_",
+          "align": "left"
+      }
+    }
+}
+
