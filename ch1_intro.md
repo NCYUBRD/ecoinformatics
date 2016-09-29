@@ -53,8 +53,8 @@
 
     我們選 Empty Project ![專案類型](img/RS_empty_project.png)
 
-    選擇你想要放置這個 R 專案的目錄以及這個新專案的名稱，範例名稱為 ```ch1_r_project``` 
-    
+    選擇你想要放置這個 R 專案的目錄以及這個新專案的名稱，範例名稱為 ```ch1_r_project```
+
     ![專案名稱及目錄](img/RS_project_name.png)
 
 
@@ -73,7 +73,7 @@ RStudio 開啟的時候，預設切分為左右兩部分，左半部是 R script
 ## 安裝 R 的第三方套件
 
 R 強大的地方除了本身語言支援許多統計的函式外，也可以安裝一些第三方套件(類似外掛)
-擴充原本沒有的功能。我們可以稱這些第三方套件叫做 package 或 library。安裝的方法可以直接在 RStudio 安裝，從 package 中的 install package (或是從工具列中的 Tool/Install packages 安裝)，輸入 package 名稱(輸入部分關鍵字後下方會有提示)則會透過網路自 [CRAN](https://cran.r-project.org/
+擴充原本沒有的功能。我們可以稱這些第三方套件叫做 ```package``` 或 ```library```。安裝的方法可以直接在 RStudio 安裝，從 ```package``` 中的 ```install package``` (或是從工具列中的 Tool/Install packages 安裝)，輸入 package 名稱(輸入部分關鍵字後下方會有提示)則會透過網路自 [CRAN](https://cran.r-project.org/
 ) (Comprehensive R Archive Network) 安裝，如下圖所示：
 
 ![RStudio install package](img/RS_install_packages.png)
