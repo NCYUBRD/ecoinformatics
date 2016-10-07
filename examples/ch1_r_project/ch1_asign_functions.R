@@ -11,6 +11,7 @@ USDTWD <- 31.53
 # 15 USD 等於多少新臺幣呢？
 15 * 31.53
 15 * USDTWD
+
 # usdtwdConv function
 # arguments:
 #   * usd 美金的數目

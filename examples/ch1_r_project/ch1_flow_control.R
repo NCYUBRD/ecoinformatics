@@ -58,8 +58,9 @@ while ( i <= 6 ){
 fib <- integer(10)
 fib <- vector(mode = 'integer', length = 10)
 
+fib[1] <- 0
 fib[2] <- 1
-fib[3] <- 2
+fib[3] <- fib[1] + fib[2]
 fib[4] <- fib[2] + fib[3]
 fib[5] <- fib[3] + fib[4]
 fib[6] <- fib[4] + fib[5]
@@ -72,8 +73,7 @@ fib[10] <- fib[8] + fib[9]
 fib <- integer(15)
 fib[1] <- 0
 fib[2] <- 1
-fib[3] <- 2
-for ( i in 4:15 ){
+for ( i in 3:15 ){
   fib[i] <- fib[i-2] + fib[i-1]
 }
 fib
@@ -81,16 +81,21 @@ fib
 # function 的作法
 fibonacci <- function(n){
   fib <- integer(n)
-  fib[1] <- 0
-  fib[2] <- 1
-  fib[3] <- 2
-  for ( i in 4:n ){
-    fib[i] <- fib[i-2] + fib[i-1]
+  if ( n == 1 ){
+    return(0)
+  } else if ( n == 2 ){
+    return(c(0, 1))
+  } else {
+    fib[1] <- 0
+    fib[2] <- 1
+    for ( i in 3:n ){
+      fib[i] <- fib[i-2] + fib[i-1]
+    }
+    return(fib)
   }
-  return(fib)
 }
 
 fibonacci(5)
 fibonacci(15)
 fibonacci(23)
-
+fibonacci(3)
