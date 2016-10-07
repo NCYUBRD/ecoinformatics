@@ -149,7 +149,3 @@ R 才會重複大括號內的執行動作。如果今天寫 ```while ( 1+1 == 2 
 
 
 ![RStudio 停止執行 R Console 內的動作](img/RS_stop_exec.png)
-
-
-=======
->>>>>>> 0898a4c54d88fe1661679373b0cf22781d8b66d7
