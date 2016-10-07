@@ -26,5 +26,71 @@ forecast <- function() {
   }
 }  
 
+forecast()
 
+#### part 2: 迴圈
+print(1)
+print(2)
+print(3)
+print(4)
+print(5)
+print(6)
+print(7)
+print(8)
+print(9)
+print(10)
+
+# for 迴圈的作法
+for ( i in 1:6 ) {
+  print(i)
+}
+
+i <- 1
+while ( i <= 6 ){
+  print(i)
+  # i 自動加 1
+  i <- i + 1
+}
+
+# Fibonacci
+# 1 2 3 4 5 6  7  8  9 10
+# 0 1 2 3 5 8 13 21 34 55
+fib <- integer(10)
+fib <- vector(mode = 'integer', length = 10)
+
+fib[2] <- 1
+fib[3] <- 2
+fib[4] <- fib[2] + fib[3]
+fib[5] <- fib[3] + fib[4]
+fib[6] <- fib[4] + fib[5]
+fib[7] <- fib[5] + fib[6]
+fib[8] <- fib[6] + fib[7]
+fib[9] <- fib[7] + fib[8]
+fib[10] <- fib[8] + fib[9]
+
+# 用迴圈的方式
+fib <- integer(15)
+fib[1] <- 0
+fib[2] <- 1
+fib[3] <- 2
+for ( i in 4:15 ){
+  fib[i] <- fib[i-2] + fib[i-1]
+}
+fib
+
+# function 的作法
+fibonacci <- function(n){
+  fib <- integer(n)
+  fib[1] <- 0
+  fib[2] <- 1
+  fib[3] <- 2
+  for ( i in 4:n ){
+    fib[i] <- fib[i-2] + fib[i-1]
+  }
+  return(fib)
+}
+
+fibonacci(5)
+fibonacci(15)
+fibonacci(23)
 
