@@ -52,9 +52,9 @@ while ( i <= 6 ){
   i <- i + 1
 }
 
-# Fibonacci
-# 1 2 3 4 5 6  7  8  9 10
-# 0 1 2 3 5 8 13 21 34 55
+# Fibonacci 數列
+# 1 2 3 4 5 6 7  8  9 10
+# 0 1 1 2 3 5 8 13 21 34
 fib <- integer(10)
 fib <- vector(mode = 'integer', length = 10)
 
@@ -80,11 +80,15 @@ fib
 
 # function 的作法
 fibonacci <- function(n){
+  # 先建立 n 個位置等待填滿數值 
   fib <- integer(n)
+  # 如果 n 為 1 的話，直接傳回 0 
   if ( n == 1 ){
     return(0)
+  # 若 n 為 2 的話，傳回 0, 1
   } else if ( n == 2 ){
     return(c(0, 1))
+
   } else {
     fib[1] <- 0
     fib[2] <- 1
