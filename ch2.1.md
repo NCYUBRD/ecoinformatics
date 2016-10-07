@@ -9,6 +9,7 @@ R 一開啟的時候會出現類似[終端機](https://zh.wikipedia.org/wiki/終
 圖 2-1 是使用 RStudio 開啟 R console。上半部顯示 R 的版本、平台(platform)、
 版權的宣告及相關資訊等。最下面有個大於(>)符號，後方游標閃爍，
 在這個「大於」符號後面是接受輸入命令區，你可以在這邊輸入 R 的指令。
+
 在解釋 R console 使用之前，先解釋電腦程式語言的兩大類群，
 分別為編譯式語言(compiled language)及直譯式語言(interpreted language)。
 編譯式語言需要透過[編譯器(compiler)](https://zh.wikipedia.org/wiki/編譯器)
@@ -177,4 +178,3 @@ R 在處理數值或文字資料時必須先定義好其類型，
 在 R 裡頭會使用 ```NA``` (Not Available; 不是數值或不存在此物件，
 通常是缺乏資料) 或 ```NaN``` (Not a Number; 不屬於數值)來表示。
 若數值資料無限大，則是使用 ```inf``` 來表示。
-

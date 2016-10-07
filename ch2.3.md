@@ -1,5 +1,6 @@
 ## R 的資料結構
 
+<<<<<<< HEAD
 在試算表(LibreOffice scalc 或 Excel)中，
 輸入的資料並不需要考慮其[資料結構(data structure)](https://en.wikipedia.org/wiki/Data_structure)，
 什麼是「資料結構」呢？簡單來說就是電腦儲存資料並有效率使用資料的方式，
@@ -149,4 +150,3 @@ x.df
 > x.m[3, x.m[3,]>30]
 [1] 35
 ```
-
