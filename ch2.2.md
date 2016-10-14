@@ -72,7 +72,7 @@
 [1] 25
 ```
 
-極值(maximum or minimum values)，可使用 ```max()``` 及 ```min()``` 
+極值(maximum or minimum values)，可使用 ```max()``` 及 ```min()```
 來分別計算最大值及最小值:
 
 ```R
