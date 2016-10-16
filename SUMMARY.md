@@ -10,7 +10,7 @@
         * [R 的檔案輸出入](ch2.5.md)
         * [練習](ch2_homework.md)
         * [參考文獻及延伸閱讀](ch2_references.md)
-    * [敘述統計](ch3_dstats.md)
+    * [統計分析](ch3_dstats.md)
     * [繪圖](ch4_r_graphics.md)
     * [資料轉換](ch5_data_conversion.md)
     * [工具](tools.md)
