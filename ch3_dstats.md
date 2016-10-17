@@ -180,6 +180,10 @@ Petal.Length 為應變數，然後 data 使用 iris，計算 species 中 Petal.L
 3:  virginica 2.026
 ```
 
+上述的 ```data.table``` 計算
+
+> data
+
 ### 子集(subset)
 
 
