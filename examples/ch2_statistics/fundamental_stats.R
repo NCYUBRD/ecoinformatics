@@ -2,6 +2,7 @@
 
 # 鴛尾花資料集
 iris
+ir <- iris
 
 # 取得 iris 資料集的摘要
 summary(iris)
@@ -40,7 +41,7 @@ setkey(iris.dt, Species)
 # 計算花瓣的寬度平均
 iris.dt[, mean(Petal.Width), by = Species]
 
-## T-test
+## T-testo
 iris_sv <- iris.dt[iris.dt[, Species == 'setosa' | Species == 'virginica']]
 t.test(Sepal.Length ~ Species, data = iris_sv)
 
